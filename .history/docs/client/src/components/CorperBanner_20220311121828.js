@@ -1,0 +1,3 @@
+const CorperBanner = () => {
+    return
+}
