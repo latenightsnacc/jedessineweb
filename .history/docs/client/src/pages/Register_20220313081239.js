@@ -4,11 +4,10 @@ import Axios from 'axios';
 import Footer from "../components/Footer";
 import Container from "../components/Container";
 import Layout from "../components/Layout";
-import Preview from "./Preview";
 
 
 const Register = () => {
-    
+    const navigate = useNavigate();
     const initialCorperState = {
         firstname: "",
         surname: "",
@@ -294,13 +293,12 @@ const Register = () => {
                   </div>
                 </div>
               </form>
-              
+              <Footer />
               </div>
             }
           </div>
-          <Footer />
+        
         </Container>
-        <Preview />
       </Layout>
       
     </>

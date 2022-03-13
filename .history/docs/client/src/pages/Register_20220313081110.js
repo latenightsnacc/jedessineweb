@@ -4,11 +4,10 @@ import Axios from 'axios';
 import Footer from "../components/Footer";
 import Container from "../components/Container";
 import Layout from "../components/Layout";
-import Preview from "./Preview";
 
 
 const Register = () => {
-    
+    const navigate = useNavigate();
     const initialCorperState = {
         firstname: "",
         surname: "",
@@ -175,7 +174,9 @@ const Register = () => {
                     className={'border-0 text-xs md:text-sm w-full text-gray-700  py-2 px-2 leading-loose font-medium focus:ring-0 focus:outline-0 uppercase'}
                     onChange={handleInputChange}
                      />
-                    
+                    <div className="msg mt-2 hidden">
+                    <p className="text-red-500 text-xs italic">Please enter your password.</p>
+                    </div>
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
@@ -193,7 +194,9 @@ const Register = () => {
                         <option value={'ICT'}>Information Communication Technology (ICT)</option>
                         <option value={'Band'}>Band</option>
                     </select>
-                    
+                    <div className="msg mt-2 hidden">
+                    <p className="text-red-500 text-xs italic">Please enter your password.</p>
+                    </div>
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
@@ -209,7 +212,9 @@ const Register = () => {
                     placeholder={'Enugu North'}
                     onChange={handleInputChange}
                      />
-                    
+                    <div className="msg mt-2 hidden">
+                    <p className="text-red-500 text-xs italic">Please enter your password.</p>
+                    </div>
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
@@ -225,7 +230,9 @@ const Register = () => {
                     className={'border-0 text-xs md:text-sm w-full text-gray-700  py-2 px-2 leading-loose font-medium focus:ring-0 focus:outline-0 text-uppercase'}
                     onChange={handleInputChange}
                      />
-                    
+                    <div className="msg mt-2 hidden">
+                    <p className="text-red-500 text-xs italic">Please enter your password.</p>
+                    </div>
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
@@ -241,7 +248,9 @@ const Register = () => {
                     className={'border-0 text-xs md:text-sm w-full text-gray-700  py-2 px-2 leading-loose font-medium focus:ring-0 focus:outline-0 text-uppercase'}
                     onChange={handleInputChange}
                      />
-                    
+                    <div className="msg mt-2 hidden">
+                    <p className="text-red-500 text-xs italic">Please enter your password.</p>
+                    </div>
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
@@ -257,7 +266,9 @@ const Register = () => {
                     className={'border-0 text-xs md:text-sm w-full text-gray-700  py-2 px-2 leading-loose font-medium focus:ring-0 focus:outline-0 text-uppercase'}
                     onChange={handleInputChange}
                      />
-                    
+                    <div className="msg mt-2 hidden">
+                    <p className="text-red-500 text-xs italic">Please enter your password.</p>
+                    </div>
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
@@ -284,23 +295,22 @@ const Register = () => {
                    Create Profile
                   </button>
 
-                  <div className="inline-block mt-2 align-baseline text-xs md:text-sm text-gray-500  text-center">
+                  <span className="inline-block mt-2 align-baseline text-xs md:text-sm text-gray-500  text-center">
                     Already have a profile? 
            
                     <Link to={"/api/auth/signin"}>
                         <span className="text-green-400 ml-1 cursor-pointer text-underline font-medium">Login</span>
                     </Link>
                     
-                  </div>
+                  </span>
                 </div>
               </form>
-              
+              <Footer />
               </div>
             }
           </div>
-          <Footer />
+        
         </Container>
-        <Preview />
       </Layout>
       
     </>

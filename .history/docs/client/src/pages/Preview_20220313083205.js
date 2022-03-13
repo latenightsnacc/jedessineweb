@@ -7,7 +7,7 @@ const Preview = () => {
                 <div className="w-2/6 mx-auto">
                     <img className="rounded-full" src="../../uploads/image-1647101312469.png" alt="Deborah Egonu" />
                 </div>
-                <div className="w-3/4 mx-auto">
+                <div className="w-1/2">
                     <ul className="text-xs text-left w-full md:text-sm w-full text-green-600 tracking-wide  py-2 px-2 leading-7 ">
                         <li >First Name: <span className="text-gray-700 font-medium">Deborah Egonu</span> </li>
                         <li >Surname: <span className="text-gray-700 font-medium">Deborah Egonu</span> </li>

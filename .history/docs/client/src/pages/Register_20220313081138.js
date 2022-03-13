@@ -4,11 +4,10 @@ import Axios from 'axios';
 import Footer from "../components/Footer";
 import Container from "../components/Container";
 import Layout from "../components/Layout";
-import Preview from "./Preview";
 
 
 const Register = () => {
-    
+    const navigate = useNavigate();
     const initialCorperState = {
         firstname: "",
         surname: "",
@@ -284,23 +283,22 @@ const Register = () => {
                    Create Profile
                   </button>
 
-                  <div className="inline-block mt-2 align-baseline text-xs md:text-sm text-gray-500  text-center">
+                  <span className="inline-block mt-2 align-baseline text-xs md:text-sm text-gray-500  text-center">
                     Already have a profile? 
            
                     <Link to={"/api/auth/signin"}>
                         <span className="text-green-400 ml-1 cursor-pointer text-underline font-medium">Login</span>
                     </Link>
                     
-                  </div>
+                  </span>
                 </div>
               </form>
-              
+              <Footer />
               </div>
             }
           </div>
-          <Footer />
+        
         </Container>
-        <Preview />
       </Layout>
       
     </>
