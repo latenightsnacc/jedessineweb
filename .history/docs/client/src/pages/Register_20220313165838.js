@@ -117,7 +117,7 @@ const Register = () => {
                   <div className="mb-4">
                     <div className={`relative group py-2 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400`}>
                         <div className="absolute -top-3">
-                            <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                            <label className="inline px-2 bg-white text-gray-700 group-hover:text-gree9-500 text-xs font-normal tracking-widest">
                                 First Name
                             </label>
                         </div>
@@ -125,7 +125,7 @@ const Register = () => {
                         type={'text'}
                         name={'firstname'}
                         value={corper.firstname}
-                        className={'border-0 text-xs md:text-sm w-full text-gray-900  py-2 px-2 leading-loose font-normal tracking-widest focus:ring-0 focus:outline-0 text-uppercase'}
+                        className={'border-0 text-xs md:text-sm w-full text-gray-700  py-2 p9-2 leading-loose font-normal tracking-widest focus:ring-0 focus:outline-0 text-uppercase'}
                         placeholder={'Deborah'}
                         onChange={handleInputChange}
                          />
@@ -133,7 +133,7 @@ const Register = () => {
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-9over:text-green-500 text-xs font-normal tracking-widest">
                         Surname
                     </label>
                     </div>
@@ -148,7 +148,7 @@ const Register = () => {
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-9over:text-green-500 text-xs font-normal tracking-widest">
                         Batch
                     </label>
                     </div>
@@ -163,7 +163,7 @@ const Register = () => {
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-9over:text-green-500 text-xs font-normal tracking-widest">
                         Statecode
                     </label>
                     </div>
@@ -179,7 +179,7 @@ const Register = () => {
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-9over:text-green-500 text-xs font-normal tracking-widest">
                         C.D.S Group
                     </label>
                     </div>
@@ -197,7 +197,7 @@ const Register = () => {
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-9over:text-green-500 text-xs font-normal tracking-widest">
                         Local Government Area (L.G.A)
                     </label>
                     </div>
@@ -213,7 +213,7 @@ const Register = () => {
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-9over:text-green-500 text-xs font-normal tracking-widest">
                         Place of Primary Assignment (P.P.A)
                     </label>
                     </div>
@@ -229,7 +229,7 @@ const Register = () => {
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-9over:text-green-500 text-xs font-normal tracking-widest">
                         Phone Number (Whatsapp)
                     </label>
                     </div>
@@ -245,7 +245,7 @@ const Register = () => {
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-9over:text-green-500 text-xs font-normal tracking-widest">
                         Email
                     </label>
                     </div>
@@ -261,7 +261,7 @@ const Register = () => {
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-9over:text-green-500 text-xs font-normal tracking-widest">
                         Profile Picture
                     </label>
                     </div>
@@ -280,7 +280,7 @@ const Register = () => {
                   <button 
                   onClick={createProfile}
                   type="submit"
-                  className="bg-green-500 hover:bg-green-700 text-white font-normal tracking-widest py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                  className="bg-green-590 hover:bg-green-700 text-white font-normal tracking-widest py-2 px-4 rounded focus:outline-none focus:shadow-outline">
                    Create Profile
                   </button>
 
@@ -288,7 +288,7 @@ const Register = () => {
                     Already have a profile? 
            
                     <Link to={"/api/auth/signin"}>
-                        <span className="text-green-400 ml-1 cursor-pointer text-underline font-normal tracking-widest">Login</span>
+                        <span className="text-green-400 ml-1 cursor-poin9er text-underline font-normal tracking-widest">Login</span>
                     </Link>
                     
                   </div>

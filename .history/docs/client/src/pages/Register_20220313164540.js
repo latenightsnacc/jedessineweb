@@ -100,7 +100,7 @@ const Register = () => {
     <>
       <Layout>
         <Container>
-          <div className="flex flex-col items-center justify-center tracking-widest">
+          <div className="flex flex-col items-center justify-center ">
             <div className="text-center  mt-10 mb-6">
             <span className="text-green-500 font-semibold capitalize">CDS E-attendance</span>
               <h1 className="text-black font-medium leading-loose text-2xl uppercase tracking-wide">create profile</h1>
@@ -117,7 +117,7 @@ const Register = () => {
                   <div className="mb-4">
                     <div className={`relative group py-2 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400`}>
                         <div className="absolute -top-3">
-                            <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                            <label className="inline px-2 bg-white text-gray-700 group-hover:text-green-500 text-xs font-bold">
                                 First Name
                             </label>
                         </div>
@@ -125,7 +125,7 @@ const Register = () => {
                         type={'text'}
                         name={'firstname'}
                         value={corper.firstname}
-                        className={'border-0 text-xs md:text-sm w-full text-gray-900  py-2 px-2 leading-loose font-normal tracking-widest focus:ring-0 focus:outline-0 text-uppercase'}
+                        className={'border-0 text-xs md:text-sm w-full text-gray-700  py-2 px-2 leading-loose font-medium focus:ring-0 focus:outline-0 text-uppercase'}
                         placeholder={'Deborah'}
                         onChange={handleInputChange}
                          />
@@ -133,7 +133,7 @@ const Register = () => {
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-hover:text-green-500 text-xs font-bold">
                         Surname
                     </label>
                     </div>
@@ -141,14 +141,14 @@ const Register = () => {
                     type={'text'}
                     name={'surname'}
                     value={corper.surname}
-                    className={'border-0 text-xs md:text-sm w-full text-gray-900  py-2 px-2 leading-loose font-normal tracking-widest focus:ring-0 focus:outline-0 text-uppercase'}
+                    className={'border-0 text-xs md:text-sm w-full text-gray-700  py-2 px-2 leading-loose font-medium focus:ring-0 focus:outline-0 text-uppercase'}
                     placeholder={'Egonu'}
                     onChange={handleInputChange}
                      />
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-hover:text-green-500 text-xs font-bold">
                         Batch
                     </label>
                     </div>
@@ -156,14 +156,14 @@ const Register = () => {
                     type={'text'}
                     name={'batch'}
                     value={corper.batch}
-                    className={'border-0 text-xs md:text-sm w-full text-gray-900  py-2 px-2 leading-loose font-normal tracking-widest focus:ring-0 focus:outline-0 uppercase'}
+                    className={'border-0 text-xs md:text-sm w-full text-gray-700  py-2 px-2 leading-loose font-medium focus:ring-0 focus:outline-0 uppercase'}
                     placeholder={'2021 A'}
                     onChange={handleInputChange}
                      />
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-hover:text-green-500 text-xs font-bold">
                         Statecode
                     </label>
                     </div>
@@ -172,21 +172,21 @@ const Register = () => {
                     name={'statecode'}
                     value={corper.statecode}
                     placeholder={'EN/21A/0324'}
-                    className={'border-0 text-xs md:text-sm w-full text-gray-900  py-2 px-2 leading-loose font-normal tracking-widest focus:ring-0 focus:outline-0 uppercase'}
+                    className={'border-0 text-xs md:text-sm w-full text-gray-700  py-2 px-2 leading-loose font-medium focus:ring-0 focus:outline-0 uppercase'}
                     onChange={handleInputChange}
                      />
                     
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
-                        C.D.S Group
+                    <label className="inline px-2 bg-white text-gray-700 group-hover:text-green-500 text-xs font-bold">
+                        Community Development Service (CDS) Group
                     </label>
                     </div>
                     <select 
                     type={'text'}
                     name={'cdsGroup'}
-                    className={'border-0 text-xs md:text-sm w-full text-gray-900  py-2 px-2 leading-loose font-normal tracking-widest focus:ring-0 focus:outline-0 text-uppercase'}
+                    className={'border-0 text-xs md:text-sm w-full text-gray-700  py-2 px-2 leading-loose font-medium focus:ring-0 focus:outline-0 text-uppercase'}
                     onChange={handleInputChange}
                      >
                         <option value={''}>Select CDS Group</option>
@@ -197,7 +197,7 @@ const Register = () => {
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-hover:text-green-500 text-xs font-bold">
                         Local Government Area (L.G.A)
                     </label>
                     </div>
@@ -205,7 +205,7 @@ const Register = () => {
                     type={'text'}
                     name={'lga'}
                     value={corper.lga}
-                    className={'border-0 text-xs md:text-sm w-full text-gray-900  py-2 px-2 leading-loose font-normal tracking-widest focus:ring-0 focus:outline-0 text-uppercase'}
+                    className={'border-0 text-xs md:text-sm w-full text-gray-700  py-2 px-2 leading-loose font-medium focus:ring-0 focus:outline-0 text-uppercase'}
                     placeholder={'Enugu North'}
                     onChange={handleInputChange}
                      />
@@ -213,7 +213,7 @@ const Register = () => {
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-hover:text-green-500 text-xs font-bold">
                         Place of Primary Assignment (P.P.A)
                     </label>
                     </div>
@@ -222,14 +222,14 @@ const Register = () => {
                     name={'ppa'}
                     value={corper.ppa}
                     placeholder={'Digital Dreams Ltd'}
-                    className={'border-0 text-xs md:text-sm w-full text-gray-900  py-2 px-2 leading-loose font-normal tracking-widest focus:ring-0 focus:outline-0 text-uppercase'}
+                    className={'border-0 text-xs md:text-sm w-full text-gray-700  py-2 px-2 leading-loose font-medium focus:ring-0 focus:outline-0 text-uppercase'}
                     onChange={handleInputChange}
                      />
                     
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-hover:text-green-500 text-xs font-bold">
                         Phone Number (Whatsapp)
                     </label>
                     </div>
@@ -238,14 +238,14 @@ const Register = () => {
                     name={'phoneNo'}
                     value={corper.phoneNo}
                     placeholder={'0812XXXXX89'}
-                    className={'border-0 text-xs md:text-sm w-full text-gray-900  py-2 px-2 leading-loose font-normal tracking-widest focus:ring-0 focus:outline-0 text-uppercase'}
+                    className={'border-0 text-xs md:text-sm w-full text-gray-700  py-2 px-2 leading-loose font-medium focus:ring-0 focus:outline-0 text-uppercase'}
                     onChange={handleInputChange}
                      />
                     
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-hover:text-green-500 text-xs font-bold">
                         Email
                     </label>
                     </div>
@@ -254,14 +254,14 @@ const Register = () => {
                     name={'email'}
                     value={corper.email}
                     placeholder={'debs@example.com'}
-                    className={'border-0 text-xs md:text-sm w-full text-gray-900  py-2 px-2 leading-loose font-normal tracking-widest focus:ring-0 focus:outline-0 text-uppercase'}
+                    className={'border-0 text-xs md:text-sm w-full text-gray-700  py-2 px-2 leading-loose font-medium focus:ring-0 focus:outline-0 text-uppercase'}
                     onChange={handleInputChange}
                      />
                     
                 </div>
                 <div className="relative group py-2 mb-4 rounded text-sm w-full shadow-sm border border-1 border-gray-300  appearance-none rounded focus:outline-none focus:shadow-outline focus:border hover:border-2 hover:border-green-400">
                     <div className="absolute -top-3">
-                    <label className="inline px-2 bg-white text-gray-900 group-hover:text-green-500 text-xs font-normal tracking-widest">
+                    <label className="inline px-2 bg-white text-gray-700 group-hover:text-green-500 text-xs font-bold">
                         Profile Picture
                     </label>
                     </div>
@@ -270,7 +270,7 @@ const Register = () => {
                     name="image"
                     id="image"
                     onChange={saveFile}
-                    className={'border-0 text-xs md:text-sm w-full text-gray-900  py-2 px-2 leading-loose font-normal tracking-widest focus:ring-0 focus:outline-0 text-uppercase'}
+                    className={'border-0 text-xs md:text-sm w-full text-gray-700  py-2 px-2 leading-loose font-medium focus:ring-0 focus:outline-0 text-uppercase'}
                     required />
                     
                 </div>
@@ -280,7 +280,7 @@ const Register = () => {
                   <button 
                   onClick={createProfile}
                   type="submit"
-                  className="bg-green-500 hover:bg-green-700 text-white font-normal tracking-widest py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                  className="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
                    Create Profile
                   </button>
 
@@ -288,7 +288,7 @@ const Register = () => {
                     Already have a profile? 
            
                     <Link to={"/api/auth/signin"}>
-                        <span className="text-green-400 ml-1 cursor-pointer text-underline font-normal tracking-widest">Login</span>
+                        <span className="text-green-400 ml-1 cursor-pointer text-underline font-medium">Login</span>
                     </Link>
                     
                   </div>

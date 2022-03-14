@@ -5,7 +5,7 @@ const Preview = () => {
     const showAlert = e => {
         const preview = document.getElementById('preview');
         
-        if(e.target.value === 'checked'){
+        if(e.target.value ){
             display = 'hidden';
         } else {
             display = 'block';

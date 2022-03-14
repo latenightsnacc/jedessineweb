@@ -1,14 +1,11 @@
 import Container from "../components/Container";
 
 const Preview = () => {
-    let display;
     const showAlert = e => {
         const preview = document.getElementById('preview');
-        
-        if(e.target.value === 'checked'){
-            display = 'hidden';
-        } else {
-            display = 'block';
+
+        if(preview){
+            
         }
     }
     return(
@@ -36,7 +33,7 @@ const Preview = () => {
                         <li >Place of Primary Assignment (PPA): <span className="text-gray-700 font-medium leading-10">Digital Dreams Limited</span> </li>
                     </ul>
 
-                    <div className={`w-full flex flex-col items-center justify-center ${display}`}>
+                    <div className={`w-full flex flex-col items-center justify-center ${''}`}>
                     <div className="mb-1 text-red-400 text-xs font-medium">
                         <span>Please confirm by checking the box below!</span>
                         </div>

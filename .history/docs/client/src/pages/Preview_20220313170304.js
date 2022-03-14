@@ -1,11 +1,10 @@
 import Container from "../components/Container";
 
 const Preview = () => {
-    let display;
     const showAlert = e => {
         const preview = document.getElementById('preview');
-        
-        if(e.target.value === 'checked'){
+        let display;
+        if(preview){
             display = 'hidden';
         } else {
             display = 'block';

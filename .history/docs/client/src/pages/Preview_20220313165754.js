@@ -1,16 +1,6 @@
 import Container from "../components/Container";
 
 const Preview = () => {
-    let display;
-    const showAlert = e => {
-        const preview = document.getElementById('preview');
-        
-        if(e.target.value === 'checked'){
-            display = 'hidden';
-        } else {
-            display = 'block';
-        }
-    }
     return(
         <Container>
             <div className="w-3/6 mx-auto bg-white py-10 shadow-lg rounded my-4">
@@ -36,12 +26,12 @@ const Preview = () => {
                         <li >Place of Primary Assignment (PPA): <span className="text-gray-700 font-medium leading-10">Digital Dreams Limited</span> </li>
                     </ul>
 
-                    <div className={`w-full flex flex-col items-center justify-center ${display}`}>
+                    <div className={`w-full flex flex-col items-center justify-center ${alert}`}>
                     <div className="mb-1 text-red-400 text-xs font-medium">
                         <span>Please confirm by checking the box below!</span>
                         </div>
                         <div className=" w-full flex text-xs items-center justify-center tracking-widest">
-                            <input type={"checkbox"} id={'preview'} className={"checked:bg-green-500 "}  />
+                            <input type={"checkbox"} className={"checked:bg-green-500 "}  />
                             <span className="ml-2 text-sm">I have cofirmed that my details above are correct.</span>
                         </div>
                         

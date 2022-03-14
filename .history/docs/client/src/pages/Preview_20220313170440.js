@@ -41,7 +41,7 @@ const Preview = () => {
                         <span>Please confirm by checking the box below!</span>
                         </div>
                         <div className=" w-full flex text-xs items-center justify-center tracking-widest">
-                            <input type={"checkbox"} id={'preview'} className={"checked:bg-green-500 "}  />
+                            <input type={"checkbox"} id={'preview'} className={"checked:bg-green-500 "}   />
                             <span className="ml-2 text-sm">I have cofirmed that my details above are correct.</span>
                         </div>
                         
